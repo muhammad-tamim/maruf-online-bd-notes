@@ -13,12 +13,22 @@
 
 
 # 1. Existing Month File Operation: 
+
 ## 1.1. Net Bill Sheet (month-year):
+
 ## 1.2. Dish Bill Sheet (month-year):
+
 ## 1.3. Reseller Sheets (month-year):
+
 ## 1.4. Dhour Bill Sheet (month-year):
+
 ## 1.5. Cost File (month-year): 
+
 ## 1.6. Other Cash In (month-year).xlsx:
+There are only 1 steps to entry Other Cash In:
+1. Fill the proper information in the `Other Cash In (month-year).xlsx` sheet
+   - ![alt text](./assets/existing-month-file-operation/other-cash-in/other-cash-in-1.png)
+
 ## 1.7. Band-Width Bill (month-year):
 There are 3 steps to pay bandwidth bill to bd hub:
 1. Fill the Midland Bank 2 page transaction form with the correct details: 
