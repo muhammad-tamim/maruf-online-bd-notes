@@ -2,6 +2,10 @@
 
 - [1. Existing Month File Operation:](#1-existing-month-file-operation)
   - [1.1. Net Bill Sheet (month-year):](#11-net-bill-sheet-month-year)
+    - [Case 1: Entry Money Receipt:](#case-1-entry-money-receipt)
+    - [Case 2: Completely off User:](#case-2-completely-off-user)
+    - [Case 3: Off User for 1 Month:](#case-3-off-user-for-1-month)
+    - [Case 4: Change User Information:](#case-4-change-user-information)
   - [1.2. Dish Bill Sheet (month-year):](#12-dish-bill-sheet-month-year)
   - [1.3. Reseller Sheets (month-year):](#13-reseller-sheets-month-year)
   - [1.4. Dhour Bill Sheet (month-year):](#14-dhour-bill-sheet-month-year)
@@ -15,6 +19,28 @@
 # 1. Existing Month File Operation: 
 
 ## 1.1. Net Bill Sheet (month-year):
+### Case 1: Entry Money Receipt:
+![alt text](./assets/existing-month-file-operation/net-bill-sheet/money-receipt.png)
+1. Fill the proper information in the `Net - Collection Sheet (month-year).xlsx` based on the `money receipt`.
+   - ![alt text](./assets/existing-month-file-operation/net-bill-sheet/net-collection-sheet.png)
+2. Fill the proper information in the `Net (month-year).xlsx` based on the `money receipt` 
+   - ![alt text](./assets/existing-month-file-operation/net-bill-sheet/net-main-sheet.png)
+3. In the software, go the the `Manage Billing --> Manage Pending bill`. Then search with the `User ID`. After that fill the form with proper information based on the `money receipt`
+   - ![alt text](./assets/existing-month-file-operation/net-bill-sheet/manage-pending-bill.png)
+
+### Case 2: Completely off User:
+1. Fill teh row with red color and just clear the content of `monthly bill` cell from both `collection sheet` and `main sheet` sheets.
+2. Inform it to `Monju Bhai` and when the new users added to that `id` then fill the proper new user information form both `collection sheet` and `main sheet` sheets. 
+3. Delete teh old user data from the software and add the new user data in the software.     
+
+### Case 3: Off User for 1 Month:
+1. Fill the row with brown color and just clear the content of `monthly bill` cell from both `collection sheet` and `main sheet` sheets only for that month.
+2. Inform it to `Monju Bhai` and he will off the user for 1 month from the server.
+3. Enter the user `Id` and `description` to the `Notes about line.xlsx` sheet.
+   - ![alt text](./assets/existing-month-file-operation/net-bill-sheet/notes-about-line.png)   
+
+### Case 4: Change User Information: 
+1. update the proper information from `collection sheet, main sheet and software`.
 
 ## 1.2. Dish Bill Sheet (month-year):
 
@@ -31,10 +57,13 @@ There are only 1 steps to entry Cost File:
    - ![alt text](./assets/existing-month-file-operation/cost-file/owners.png)
    - ![alt text](./assets/existing-month-file-operation/cost-file/owners-home.png)
    - ![alt text](./assets/existing-month-file-operation/cost-file/staffs.png)
-## 1.6. Other Cash In (month-year).xlsx:
+
+ ## 1.6. Other Cash In (month-year).xlsx:
 There are only 1 steps to entry Other Cash In:
 1. Fill the proper information in the `Other Cash In (month-year).xlsx` sheet
    - ![alt text](./assets/existing-month-file-operation/other-cash-in/other-cash-in-1.png)
+
+Note: For entry `অগ্রিম বেতন আদায় বাবদ` cells we must need to follow `sabbir bhai` register notepad.
 
 ## 1.7. Band-Width Bill (month-year):
 There are 3 steps to pay bandwidth bill to bd hub:
