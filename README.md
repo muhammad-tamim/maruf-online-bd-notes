@@ -8,6 +8,17 @@
     - [1.1.4. Case 4: Change User Information:](#114-case-4-change-user-information)
   - [1.2. Dish Bill Sheet (month-year):](#12-dish-bill-sheet-month-year)
   - [1.3. Reseller Sheets (month-year):](#13-reseller-sheets-month-year)
+    - [1.3.1. Step 1: Reseller Bill - Full Details (month-year).xlsx:](#131-step-1-reseller-bill---full-details-month-yearxlsx)
+    - [1.3.2. Step 2: Reseller Net Bill (month-year).xlsx:](#132-step-2-reseller-net-bill-month-yearxlsx)
+    - [1.3.3. Step 3 IP: Tagor, Shoudagor, kajol:](#133-step-3-ip-tagor-shoudagor-kajol)
+      - [1.3.3.1. Tagor:](#1331-tagor)
+      - [1.3.3.2. Shoudagor:](#1332-shoudagor)
+      - [1.3.3.3. Kajol:](#1333-kajol)
+    - [1.3.4. Step 4 MAC: Mostofa, Mahi, Khokon, Younus:](#134-step-4-mac-mostofa-mahi-khokon-younus)
+      - [1.3.4.1. Mostofa:](#1341-mostofa)
+      - [1.3.4.2. Mahi:](#1342-mahi)
+      - [1.3.4.3. Khokon:](#1343-khokon)
+      - [1.3.4.4. Younus:](#1344-younus)
   - [1.4. Dhour Bill Sheet (month-year):](#14-dhour-bill-sheet-month-year)
   - [1.5. Cost File (month-year):](#15-cost-file-month-year)
   - [1.6. Other Cash In (month-year).xlsx:](#16-other-cash-in-month-yearxlsx)
@@ -49,6 +60,63 @@
    - ![alt text](./assets/existing-month-file-operation/dish-bill-sheet/dish-collection-summary.png)
 
 ## 1.3. Reseller Sheets (month-year):
+
+### 1.3.1. Step 1: Reseller Bill - Full Details (month-year).xlsx: 
+1. Entry the proper information in the `Reseller Bill - Full Details (month-year).xlsx` sheet based on the `money receipt`.
+   - ![alt text](./assets/existing-month-file-operation/reseller-sheet/reseller-bill.png)
+
+### 1.3.2. Step 2: Reseller Net Bill (month-year).xlsx:
+1. Entry the Total amount of TK collected from `Reseller Bill - Full Details (month-year).xlsx` sheet to the `Reseller Net Bill (month-year).xlsx` sheet specific cells like `তারিখ(updated date), রানিং মাসে বিল এসেছে (updated tk after sum), সর্বমোট বিল দিয়েছে(updated tk after sum)`
+   - ![alt text](./assets/existing-month-file-operation/reseller-sheet/reseller-net-bill.png)
+
+Note: If `monju bhai` ask for reseller sheet then we must send them the sheet after deleting `PPPOE, সংযোগ তারিখ, সংযোগ চার্জ` and hiding `সর্বমোট বিল দিয়েছে`:
+- ![alt text](./assets/existing-month-file-operation/reseller-sheet/due-sheet.png)
+
+### 1.3.3. Step 3 IP: Tagor, Shoudagor, kajol: 
+#### 1.3.3.1. Tagor: 
+1. Entry the proper ip name and speed in the `Mr. Togor (IP Names & Speed).xlsx` sheet based on the `microtik server`
+   - ![alt text](/assets/existing-month-file-operation/reseller-sheet/ipNames-and-speed-for-togor.png)
+2. Entry the proper information in the `Mr. Togor's Taken Accessories (July-26).xlsx` sheet based on the `money receipt` if **applicable**
+   - ![alt text](./assets/existing-month-file-operation/reseller-sheet/tagor-taken-accessories.png)
+3. Entry the proper information in the `Mr. Togor (July-26).xlsx` sheet based on the `Reseller Net Bill (July-26).xlsx` and `Mr. Togor's Taken Accessories (July-26).xlsx` sheets.
+   - ![alt text](./assets/existing-month-file-operation/reseller-sheet/tagor-3.png)
+**here,** 
+   - add `Previous Due` based on `আগের বকেয়া টাকা` in `reseller net bill (month-year).xlsx` sheet.
+   - add `Current Due` based on `রানিং মাসে বকেয়া টাকা` in `reseller net bill (month-year).xlsx` sheet and sync it with the `Mr. Togor (month-year).xlsx`.
+   - add `Accessories Bill` based on `Mr. Togor's Taken Accessories (month-year).xlsx` sheet.
+   - add `Net Out Standing` based on `মোট বকেয়া টাকা` in `reseller net bill (month-year).xlsx` sheet.
+![alt text](./assets/existing-month-file-operation/reseller-sheet/togor-4.png)
+
+#### 1.3.3.2. Shoudagor: 
+1. same as `Tagor`
+2. same as `tagor`
+3. Entry the proper information in the `Mr. Shoudagor (July-26).xlsx` sheet based on the `Reseller Net Bill (July-26).xlsx` and `Mr. Shoudagor's Taken Accessories (July-26).xlsx` sheets.
+   - ![alt text](./assets/existing-month-file-operation/reseller-sheet/shoudagor-1.png)
+
+**here,**
+   - Verify the `Total Amount` based on `Reseller Net Bill (month-year).xlsx` sheet.
+   - add `DUE - JUN 22 - JUN 26` based on `Reseller Net Bill (month-year).xlsx` sheet `আগের বকেয়া টাকা` cell.
+   - add `Accessories Due` based on `Mr. Shoudagor's Taken Accessories (month-year).xlsx` sheet.
+   - Verify `In Total` based on `Reseller Net Bill (month-year).xlsx` sheet `মোট বকেয়া টাকা` cell
+![alt text](./assets/existing-month-file-operation/reseller-sheet/shoudagor-2.png)
+#### 1.3.3.3. Kajol: 
+**Same as `Tagor`**
+
+
+### 1.3.4. Step 4 MAC: Mostofa, Mahi, Khokon, Younus:
+#### 1.3.4.1. Mostofa: 
+![alt text](./assets/existing-month-file-operation/reseller-sheet/mostofa-1.png)
+1. verify `In Total` and based on `Reseller Net Bill (month-year).xlsx` sheet `রানিং মাসের বিল` cell
+2. add `Previous Due` based on `Reseller Net Bill (month-year).xlsx` sheet `আগের বকেয়া টাকা` cell.
+3. add `Current Due` based on `Reseller Net Bill (month-year).xlsx` sheet `রানিং মাসে বকেয়া টাকা` cell.
+4. add `Accessories Bill` based on `Mr. Mostofa's Taken Accessories (month-year).xlsx` sheet if **applicable**.
+5. add `Net Out Standing` based on `Reseller Net Bill (month-year).xlsx` sheet `মোট বকেয়া টাকা` cell.
+#### 1.3.4.2. Mahi: 
+**Same as `Mostofa`**
+#### 1.3.4.3. Khokon:
+**Same as `Mostofa`**
+#### 1.3.4.4. Younus:
+**same as `Mostofa`**
 
 ## 1.4. Dhour Bill Sheet (month-year):
 
