@@ -119,7 +119,11 @@ Note: If `monju bhai` ask for reseller sheet then we must send them the sheet af
 **same as `Mostofa`**
 
 ## 1.4. Dhour Bill Sheet (month-year):
-
+1. Entry the proper information in the `Dhour Net Bill Sheet (July-26).xlsx` based on `MicroTik Server`.
+2. Add the `Total Monthly Amount` from the `Dhour Net Bill Sheet (July-26).xlsx` to the `Md. Borkot (July-26).xlsx` sheet `Net Bill` cell after dividing it by 2 (half) of the total amount.
+   - ![alt text](./assets/existing-month-file-operation/reseller-sheet/dhour-1.png)
+- add the `Total Monty Amount` from the `Dhour Net Bill Sheet (July-26).xlsx` to the `ধউরের সম্পূর্ণ হিসাব (জুলাই-২৬ পর্যন্ত).xlsx` sheet `জুলাই-এর নেট বিল - ২৬` cell after dividing it by 2 (half) of the total amount and add total paid money from the `Other Cash In  (July-26).xlsx` to `জুলাই-২৬-এর বিল দিয়েছে মার্চেন্ট বিকাশে` cell. 
+  - ![alt text](./assets/existing-month-file-operation/reseller-sheet/dhour-2.png)
 ## 1.5. Cost File (month-year): 
 There are only 1 steps to entry Cost File:
 1. Fill the proper information in the `All Staffs (July-26).xlsx, Office (July-26).xlsx, Owner's (July-26).xlsx, Owner's Home (July-26).xlsx, Staffs (July-26).xlsx` sheets based on the `sabbir bhai` register notepad.
