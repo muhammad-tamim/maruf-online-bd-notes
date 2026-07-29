@@ -25,6 +25,25 @@
   - [1.7. Band-Width Bill (month-year):](#17-band-width-bill-month-year)
   - [1.8. হাউজের হিসাব (month-year).xlsx:](#18-হাউজের-হিসাব-month-yearxlsx)
 - [2. New Months File Creation:](#2-new-months-file-creation)
+  - [2.1. Net Bill Sheet (month-year):](#21-net-bill-sheet-month-year)
+  - [2.2. Dish Bill Sheet (month-year):](#22-dish-bill-sheet-month-year)
+  - [2.3. Reseller Sheets (month-year):](#23-reseller-sheets-month-year)
+    - [2.3.1. Step 1: Reseller Bill - Full Details (month-year).xlsx:](#231-step-1-reseller-bill---full-details-month-yearxlsx)
+    - [2.3.2. Step 2: Reseller Net Bill (month-year).xlsx:](#232-step-2-reseller-net-bill-month-yearxlsx)
+    - [2.3.3. Step 3 IP: Tagor, Shoudagor, kajol:](#233-step-3-ip-tagor-shoudagor-kajol)
+      - [2.3.3.1. Tagor:](#2331-tagor)
+      - [2.3.3.2. Shoudagor:](#2332-shoudagor)
+      - [2.3.3.3. Kajol:](#2333-kajol)
+    - [2.3.4. Step 4 MAC: Mostofa, Mahi, Khokon, Younus:](#234-step-4-mac-mostofa-mahi-khokon-younus)
+      - [2.3.4.1. Mostofa:](#2341-mostofa)
+      - [2.3.4.2. Mahi:](#2342-mahi)
+      - [2.3.4.3. Khokon:](#2343-khokon)
+      - [2.3.4.4. Younus:](#2344-younus)
+  - [2.4. Dhour Bill Sheet (month-year):](#24-dhour-bill-sheet-month-year)
+  - [2.5. Cost File (month-year):](#25-cost-file-month-year)
+  - [2.6. Other Cash In (month-year).xlsx:](#26-other-cash-in-month-yearxlsx)
+  - [2.7. Band-Width Bill (month-year):](#27-band-width-bill-month-year)
+  - [2.8. হাউজের হিসাব (month-year).xlsx:](#28-হাউজের-হিসাব-month-yearxlsx)
 
 
 # 1. Existing Month File Operation: 
@@ -124,6 +143,7 @@ Note: If `monju bhai` ask for reseller sheet then we must send them the sheet af
    - ![alt text](./assets/existing-month-file-operation/reseller-sheet/dhour-1.png)
 - add the `Total Monty Amount` from the `Dhour Net Bill Sheet (July-26).xlsx` to the `ধউরের সম্পূর্ণ হিসাব (জুলাই-২৬ পর্যন্ত).xlsx` sheet `জুলাই-এর নেট বিল - ২৬` cell after dividing it by 2 (half) of the total amount and add total paid money from the `Other Cash In  (July-26).xlsx` to `জুলাই-২৬-এর বিল দিয়েছে মার্চেন্ট বিকাশে` cell. 
   - ![alt text](./assets/existing-month-file-operation/reseller-sheet/dhour-2.png)
+
 ## 1.5. Cost File (month-year): 
 There are only 1 steps to entry Cost File:
 1. Fill the proper information in the `All Staffs (July-26).xlsx, Office (July-26).xlsx, Owner's (July-26).xlsx, Owner's Home (July-26).xlsx, Staffs (July-26).xlsx` sheets based on the `sabbir bhai` register notepad.
@@ -134,7 +154,7 @@ There are only 1 steps to entry Cost File:
    - ![alt text](./assets/existing-month-file-operation/cost-file/owners-home.png)
    - ![alt text](./assets/existing-month-file-operation/cost-file/staffs.png)
 
- ## 1.6. Other Cash In (month-year).xlsx:
+## 1.6. Other Cash In (month-year).xlsx:
 There are only 1 steps to entry Other Cash In:
 1. Fill the proper information in the `Other Cash In (month-year).xlsx` sheet
    - ![alt text](./assets/existing-month-file-operation/other-cash-in/other-cash-in-1.png)
@@ -159,4 +179,65 @@ There are only 1 steps to entry হাউজের হিসাব:
    - ![alt text](./assets/existing-month-file-operation/house-account/house-account-2.png)
 
 
-# 2. New Months File Creation: 
+# 2. New Months File Creation:
+
+## 2.1. Net Bill Sheet (month-year):
+
+## 2.2. Dish Bill Sheet (month-year):
+1. Copy the `Dish Collection Sammary Sheet (month-year).xlsx` sheet from the previous month and clear all the data, then rename it to the new month.
+2. 
+
+## 2.3. Reseller Sheets (month-year):
+
+### 2.3.1. Step 1: Reseller Bill - Full Details (month-year).xlsx:
+1. Copy the `Reseller Bill - Full Details (month-year).xlsx` sheet from the previous month and clear all the data, then rename it to the new month.
+   
+### 2.3.2. Step 2: Reseller Net Bill (month-year).xlsx:
+1. Copy the `Reseller Net Bill (month-year).xlsx` sheet from the previous month and rename it to the new month.
+2. Summation `রানিং মাসে বকেয়া টাকা + আগের বকেয়া টাকা` and add it to the `আগের বকেয়া টাকা` cell
+3. clear `রানিং মাসে বিল এসেছে, সর্বমোট বিল দিয়েছে, তারিখ, রানিং মাসের বিল`
+
+### 2.3.3. Step 3 IP: Tagor, Shoudagor, kajol:
+#### 2.3.3.1. Tagor:
+1. Copy the `Mr. Togor's Taken Accessories (July-26).xlsx and Mr. Togor (IP Names & Speed).xlsx` sheet from the previous month exactly and rename it to the new month. 
+2. Update the `Mr. Togor (July-26).xlsx` sheet based on the `Monju Bhai Informatin` and add `In Total` Tk Tk to the `রানিং মাসের বিল` cell in the `Reseller Net Bill (month-year).xlsx` sheet.
+3. update the `Previous Due, Accessories Bill` based on the `Reseller Net Bill (month-year).xlsx` and `Mr. Togor's Taken Accessories (month-year).xlsx` sheets.
+
+#### 2.3.3.2. Shoudagor:
+1. Copy the `রিসেলার সওদাগরের হিসাব.xlsx` sheet from the previous month exactly as it was. 
+2. Follow the same steps as `Tagor`
+   
+#### 2.3.3.3. Kajol:
+1. Follow the same steps as `Tagor`
+
+### 2.3.4. Step 4 MAC: Mostofa, Mahi, Khokon, Younus:
+#### 2.3.4.1. Mostofa:
+1. Copy the `রিসেলার মোস্তফার হিসাব.xlsx and Mr. Mostofa (December-22)-FULL.xlsx` sheet from the previous month exactly as it was.
+2. Follow the same steps as `Tagor`
+
+#### 2.3.4.2. Mahi:
+1. Copy the `রিসেলার মাহি-র হিসাব.xlsx` sheet from the previous month exactly as it was.
+2. Follow the same steps as `Tagor`
+
+#### 2.3.4.3. Khokon:
+1. Same as `Tagor`
+
+#### 2.3.4.4. Younus:
+1. Same as `Tagor`
+
+## 2.4. Dhour Bill Sheet (month-year):
+1. Copy the `Dhour Net Bill Sheet (month-year).xlsx, Dhour Dish Bill Sheet (July-26).xlsx` sheets as it is and only update when `monju bhai ask for her bill and provie infomation`.
+2. Copy the `Md. Borkot (month-year).xlsx` sheets from the previous month and clear `Net Bill, and paid amount` data, then rename it to the new month.
+3. Copy the `ধউরের সম্পূর্ণ হিসাব (জুলাই-২৬ পর্যন্ত).xlsx` sheets from the previous month and add a new month calcualtion rows below previsous month, then rename it to the new month.
+
+## 2.5. Cost File (month-year):
+1. Copy the `All Staffs (month-year).xlsx, Office (month-year).xlsx, Owner's (month-year).xlsx, Owner's Home (month-year).xlsx, Staffs (month-year).xlsx` sheets from the previous month and clear all the data, then rename it to the new month.
+
+## 2.6. Other Cash In (month-year).xlsx:
+1. Copy the `Other Cash In (month-year).xlsx` sheet from the previous month and clear all the data, then rename it to the new month.
+
+## 2.7. Band-Width Bill (month-year): 
+1. Copy the `bdHub (month-year).xlsx` sheet from the previous month and clear all the data, then rename it to the new month.
+
+## 2.8. হাউজের হিসাব (month-year).xlsx:
+1. Copy the `হাউজের হিসাব (month-year).xlsx` sheet from the previous month and clear all the data, then rename it to the new month.
