@@ -26,6 +26,8 @@
   - [1.8. হাউজের হিসাব (month-year).xlsx:](#18-হাউজের-হিসাব-month-yearxlsx)
 - [2. New Months File Creation:](#2-new-months-file-creation)
   - [2.1. Net Bill Sheet (month-year):](#21-net-bill-sheet-month-year)
+    - [2.1.1. Collection Sheet:](#211-collection-sheet)
+    - [2.1.2. Main Sheet:](#212-main-sheet)
   - [2.2. Dish Bill Sheet (month-year):](#22-dish-bill-sheet-month-year)
   - [2.3. Reseller Sheets (month-year):](#23-reseller-sheets-month-year)
     - [2.3.1. Step 1: Reseller Bill - Full Details (month-year).xlsx:](#231-step-1-reseller-bill---full-details-month-yearxlsx)
@@ -182,11 +184,33 @@ There are only 1 steps to entry হাউজের হিসাব:
 # 2. New Months File Creation:
 
 ## 2.1. Net Bill Sheet (month-year):
+### 2.1.1. Collection Sheet: 
+1. Copy the `Net - Collection Sheet (july-26).xlsx` sheets from the previous month and rename them to the new month.
+2. remove all the `yellow` color
+3. add `Aug` coloum.
+4. carefully check `Jun` and then remove `jun` coloum after trasforming important data to `July` if applicable.
+5. clear `Jun Date` and paste `Bill Date` 
+6. clear `Bill Date` also after pasting it to `Jun Date` coloum.
+7. If any advance payment has been found paste its `Date` to `Bill Date` and `July` to `Aug` and make it `light blue` color.
+8. If any `red or brown` color has been found then call them and comfirm them. After that notify `Monju Bhai` and off thats lines.  
+
+### 2.1.2. Main Sheet: 
+1. Copy the `Net (july-26).xlsx` sheets from the previous month and rename them to the new month.
+2. remove all the `yellow` color
+3. add `Date and Aug` coloum.
+4. Carefully check `Date and Jun` coloum and then remove `Date and Jun` coloum after trasforming important data to `Date and July` if applicable.
+5. If any advance payment has been found paste its `Date and July` to `Date and Aug` coloum and make it `light blue` color.
+6. Clear all `Total` Coloum data.
 
 ## 2.2. Dish Bill Sheet (month-year):
 1. Copy the `Dish Collection Sammary Sheet (month-year).xlsx` sheet from the previous month and clear all the data, then rename it to the new month.
-2. 
-
+2. Remove all the `yellow` color
+3. add `Aug` coloum.
+4. Carefully check `Jun` and then remove `Jun` coloum after trasforming important data to `July` if applicable.
+5. clear `Jun Date` and paste `Bill Date`
+6. clear `Bill Date` also after pasting it to `Jun Date` coloum
+7. If any advance payment has been found paste its `Date` to `Bill Date` and `July` to `Aug` and make it `light blue` color.
+   
 ## 2.3. Reseller Sheets (month-year):
 
 ### 2.3.1. Step 1: Reseller Bill - Full Details (month-year).xlsx:
