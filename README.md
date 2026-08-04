@@ -220,6 +220,7 @@ There are only 1 steps to entry হাউজের হিসাব:
 1. Copy the `Reseller Net Bill (month-year).xlsx` sheet from the previous month and rename it to the new month.
 2. Summation `রানিং মাসে বকেয়া টাকা + আগের বকেয়া টাকা` and add it to the `আগের বকেয়া টাকা` cell
 3. clear `রানিং মাসে বিল এসেছে, সর্বমোট বিল দিয়েছে, তারিখ, রানিং মাসের বিল`
+4. remove all the `yellow or light blue` color and make it `no fill color`
 
 ### 2.3.3. Step 3 IP: Tagor, Shoudagor, kajol:
 #### 2.3.3.1. Tagor:
